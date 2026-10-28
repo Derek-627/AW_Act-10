@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  background: #000;
+  font-family: Arial, sans-serif;
+}
+
+.todo {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.lado-izq { width: 130px; }
+
+.logo-neon {
+  color: #ff2d6f;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.nombre-juego {
+  background: #ddd;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.menu-chido {
+  background: #ddd;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 60px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.caja-negra {
+  background: #222;
+  height: 80px;
+  border-radius: 8px;
+  margin: 8px 0 15px;
+}
+
+.el-centro { flex: 1; }
+
+.cuadro-gris {
+  background: #ddd;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.cuadro-gris h1 {
+  margin: 0 0 5px;
+  font-size: 26px;
+}
+
+.opciones {
+  display: flex;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.opciones button {
+  flex: 1;
+  background: #222;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.opciones button:hover { background: #ff2d6f; }
+
+.zona-texto {
+  background: #f0f0f0;
+  border: 1px solid #999;
+  padding: 10px;
+  text-align: right;
+}
+
+.zona-texto textarea {
+  width: 100%;
+  box-sizing: border-box;
+  height: 200px;
+  border: none;
+  background: transparent;
+  resize: none;
+  font-size: 16px;
+}
+
+.zona-texto button {
+  font-size: 22px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+footer a{
+    color: white;
+
+}
+
+footer a:hover{
+color: rgb(181, 120, 9);
+}

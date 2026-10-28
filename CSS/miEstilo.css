@@ -1,0 +1,80 @@
+
+
+
+
+header{
+    background-image: url('../images/photo_5132190541394152576_y.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+#inicio-titulo{
+color: white;
+margin-top: 30%;
+
+
+
+}
+
+#especialidades .bi{
+    display: inline-block;
+    width: 72px;
+    height: 72px;
+    line-height: 72px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.05);
+}
+
+footer a{
+    color: white;
+
+}
+
+footer a:hover{
+color: rgb(181, 120, 9);
+
+}
+
+#platillos a{
+margin-left: 70%;
+width: 60px;
+}
+
+#platillas img{
+    width: 20%;
+}
+
+#platillos .bi{
+
+width: 72px;
+height: 71px;
+line-height: 72px;
+
+}
+
+.card-img-top{
+    filter: drop-shadow(5px 5px 10px rgb(31, 18, 18));
+    transition: 0.5s ease;
+
+}
+
+.card-img-top:hover{
+transform: rotate(180deg);
+transform: scale( 110%);
+}
+
+.card-img-top-1{ 
+    width: 1200px;
+    height: 1200px;
+    filter: drop-shadow(5px 5px 10px rgb(31, 18, 18));
+    transition: 0.5s ease;
+
+
+
+}
+
+.card-img-top-1:hover{
+transform: rotate(180deg);
+transform: scale( 110%);
+}
+
